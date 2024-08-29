@@ -109,11 +109,11 @@ CREATE TABLE loginadmin (
     senha VARCHAR(255) NOT NULL
 );
 
--- Precisa-se inserir um administrador para poder logar na aplicação, deve-se conter "@admin.com"
+-- Precisa-se inserir um administrador para poder logar na aplicação, deve conter "@admin.com"
 -- Segue o exemplo abaixo:
 
 INSERT INTO loginadmin (nome, email, senha)
-VALUES ('Administrador', 'admin@example.com', 'senhaSegura123');
+VALUES ('Administrador', 'administrador@admin.com', 'senhaSegura123');
 ```
 ###### Usuário administrativo disponibilizado caso decida utilizar o banco de dados hospedado no servidor pelo Tembo: 
 ###### "admin@admin.com" e a senha é: "123"
