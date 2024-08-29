@@ -36,7 +36,7 @@
 ## Instruções
 
 - Baixe a aplicação do GitHub e execute na IDE de preferência (IDEs testadas: IntelliJ e NetBeans).
-- Caso não queira criar um banco de dados, foi disponibilizado dentro da aplicação a conexão com um banco de dados já pronto para uso, hospedado em nuvem pelo site Tembo ([Tembo](https://tembo.io/)).
+- Caso não queira criar um banco de dados, foi disponibilizado dentro da aplicação, uma conexão com um banco de dados já pronto para uso, hospedado em nuvem pelo site Tembo ([Tembo](https://tembo.io/)).
 - Caso queira criar um banco de dados local: Execute as instruções SQL no pgAdmin 4, uma ferramenta de administração e desenvolvimento para bancos de dados PostgreSQL.
 - Dentro do projeto aberto na IDE, verifique se o arquivo `BancoD.properties` contém as informações que correspondem com o banco de dados criado localmente.
 - Caso ocorra algum erro na execução, verifique se o [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/) foi corretamente inserido no projeto e se as configurações de conexão (URL, usuário, senha, etc.) estão corretas.
