@@ -120,6 +120,9 @@ VALUES ('Administrador', 'administrador@admin.com', 'senhaSegura123');
 
 ---
 
+###### OBS: Em caso de erros, favor entrar em contato: diego.1996pessoal@gmail.com
+
+---
 
 ## Links das aplicações utilizadas no projeto
 
